@@ -1,0 +1,25 @@
+{
+  "name": "cypress-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test-electron": "cypress run --spec \"cypress\\e2e\\Tc14_CustomCommand.spec.cy.js\"",
+    "smoke-test": "cypress run --spec \"cypress\\e2e\\smokeTest\\smokeScript.cy.js\"",
+    "test-electron-headed": "cypress run --headed",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "neat-csv": "^5.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
